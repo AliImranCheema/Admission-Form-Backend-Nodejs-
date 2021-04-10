@@ -1,0 +1,50 @@
+CREATE TABLE admissions(
+id int PRIMARY KEY,
+Full_Name varchar(255),
+Father_Name varchar(255),
+Gender varchar(10),
+CNIC int(15),
+DOB varchar(15),
+Email varchar(50),
+Phone int(15),
+Address varchar(255),
+Department varchar(15),
+Matric_Roll int(15),
+Matric_Total int(15),
+Matric_Obtained_Marks int(15),
+Matric_Year int(15),
+Matric_Board varchar(255),
+Inter_Roll int(15),
+Inter_Total int(15),
+Inter_Obtained_Marks int(15),
+Inter_Year int(15),
+Inter_Board varchar(255)
+);
+
+id , Full_Name , Father_Name , Gender , CNIC , DOB , Email , Phone , Address , Department , Matric_Roll , Matric_Total , Matric_Obtained_Marks , Matric_Year , Matric_Board , Inter_Roll , Inter_Total , Inter_Obtained_Marks , Inter_Year , Inter_Board 
+
+
+SET Full_Name = ? ,SET Father_Name = ? ,SET Gender = ? ,SET CNIC = ? ,SET DOB = ? ,SET Email = ? ,SET Phone = ? ,SET Address = ? ,SET Department = ? ,SET Matric_Roll = ? ,SET Matric_Total = ? ,SET Matric_Obtained_Marks = ? ,SET Matric_Year = ? ,SET Matric_Board = ? ,SET Inter_Roll = ? ,SET Inter_Total = ? ,SET Inter_Obtained_Marks = ? ,SET Inter_Year = ? ,SET Inter_Board = ? WHERE id = ?'
+
+
+
+ "id" : "1",
+    "Full_Name" : "Yesssss",
+    "Father_Name" : "Wow",
+    "Gender" : "Shemale",
+    "CNIC" : "564874",
+    "DOB" : "766876",
+    "Email" : "kkk@gmail.com",
+    "Phone" : "4657678786",
+    "Address" : "Manpurrrrrrrrr",
+    "Department" : "ITTTTTTTTT",
+    "Matric_Roll" : "46476",
+    "Matric_Total" : "444",
+    "Matric_Obtained_Marks" : "56",
+    "Matric_Year" : "2015",
+    "Matric_Board" : "ghkjh",
+    "Inter_Roll" : "46476",
+    "Inter_Total" : "444",
+    "Inter_Obtained_Marks" : "56",
+    "Inter_Year" : "2015",
+    "Inter_Board" : "ghkjh"
